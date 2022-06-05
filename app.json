@@ -1,6 +1,6 @@
 {
   "expo": {
-    "entryPoint": "./src/App.js",
+    "entryPoint": "./App.js",
     "name": "PokeApp",
     "slug": "PokeApp",
     "version": "1.0.0",
