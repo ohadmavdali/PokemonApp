@@ -46,9 +46,6 @@ export default function Favorite(props) {
     }
   };
 
-  const filteredData = response.filter(item => item.value === valuetofilter);
-
-
   return (
     <Icon
       name="heart"

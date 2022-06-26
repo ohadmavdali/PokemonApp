@@ -28,8 +28,8 @@ export default function PokemonCard(props) {
           <View style={bgStyles}>
             <Text style={styles.name}>{"Name:  " + capitalize(pokemon.name)}</Text>
             <Text style={styles.name}>{"Type:  " + (pokemon.type)}</Text>
-            {/* <Text style={styles.name}>{"Height:  " + (pokemon.height)}</Text>
-            <Text style={styles.name}>{"Weight:  " + (pokemon.weight)}</Text> */}
+            <Text style={styles.name}>{"Height:  " + (pokemon.height)}</Text>
+            <Text style={styles.name}>{"Weight:  " + (pokemon.weight)}</Text>
             <Favorite id={pokemon?.id} ></Favorite>
             <Image source={{ uri: pokemon.image }} style={styles.image} />
           </View>
@@ -41,7 +41,7 @@ export default function PokemonCard(props) {
 const styles = StyleSheet.create({
   card: {
     flex: 1,
-    height: 130,
+    height: 180,
   },
   spacing: {
     flex: 1,

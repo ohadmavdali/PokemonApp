@@ -34,6 +34,7 @@ export default function UserData() {
       <View style={styles.dataContent}>
         <ItemMenu title="Name" text={`${auth.firstName} ${auth.lastName}`} />
         <ItemMenu title="Username" text={auth.username} />
+        <ItemMenu title="Password" text={auth.password} />
         <ItemMenu title="Email" text={auth.email} />
       </View>
 
